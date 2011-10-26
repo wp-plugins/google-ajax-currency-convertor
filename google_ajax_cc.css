@@ -1,0 +1,50 @@
+.clearfix:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+.clearfix
+{
+	display: inline-block
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix
+{
+	height: 1%
+}
+.clearfix
+{
+	display: block
+}
+/* End hide from IE-mac */
+
+.google_ajax_cc {
+    width: 280px
+}
+
+.google_ajax_cc label {
+    font: bold 14px Arial;
+}
+.google_ajax_cc input, .google_ajax_cc select, .google_ajax_cc span {
+    background: #FFF;
+    line-height: 16px;
+    color: #000;
+    font: 12px Arial;
+    border: 1px solid;
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 200px
+}
+.google_ajax_cc input, .google_ajax_cc span {
+    width: 198px
+}
+
+.google_ajax_cc .row {
+    padding: 2px;
+    margin-bottom: 4px
+}
