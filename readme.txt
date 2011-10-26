@@ -3,6 +3,7 @@ Contributors: nostop8
 Tags: Currency Convertor, AJAX, Google Calculator
 Requires at least: 3.0
 Tested up to: 3.2
+Stable tag: trunk
 
 == Description ==
 Currency Convertor that uses Google Calculator and update the results with AJAX

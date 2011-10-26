@@ -2,7 +2,7 @@
 /*
 Plugin Name: Google AJAX Currency Convertor
 Description: Currency Convertor that uses Google Calculator and update the results with AJAX
-Author: nostop
+Author: nostop8
 Version: 1.1
 */
 
