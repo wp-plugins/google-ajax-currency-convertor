@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Google AJAX Currency Convertor
-Description: Currency Convertor that uses Google Calculator and update the results with AJAX
+Plugin Name: Google AJAX Currency Converter (Convertor)
+Description: Currency Converter (Convertor) that uses Google Calculator and update the results with AJAX
 Author: nostop8
 Version: 1.1
 */
@@ -78,7 +78,7 @@ class google_ajax_cc extends WP_Widget {
     var $curency_list;
 
     function google_ajax_cc() {
-        $this->WP_Widget('google_ajax_cc', __('Google AJAX Currency Convertor', 'google_ajax_cc'), array('description' => __('Currency Convertor that uses Google Calculator and update the results with AJAX', 'google_ajax_cc')));
+        $this->WP_Widget('google_ajax_cc', __('Google AJAX Currency Converter (Convertor)', 'google_ajax_cc'), array('description' => __('Currency Converter (Convertor) that uses Google Calculator and update the results with AJAX', 'google_ajax_cc')));
         $this->curency_list = $this->_cc_preload_currencies();
 
         wp_enqueue_script('google_ajax_cc',  _CC_DIR_URL . 'google_ajax_cc.js', array('jquery'));
